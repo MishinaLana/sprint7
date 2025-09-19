@@ -1,0 +1,7 @@
+services:
+  rasa:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
